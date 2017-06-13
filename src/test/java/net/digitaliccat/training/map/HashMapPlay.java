@@ -122,6 +122,8 @@ public class HashMapPlay {
         countryToCapital.forEach((k,v) -> {
             System.out.printf("Capital of %s is %s%n", k, v);
         });
+        // For more information see this post on SO:
+        // https://stackoverflow.com/questions/46898/how-to-efficiently-iterate-over-each-entry-in-a-map
     }
 
 }
